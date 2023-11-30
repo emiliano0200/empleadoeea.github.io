@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #f3f033;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    padding: 20px;
+}
+
+button {
+    margin-bottom: 10px;
+}
+
+#formulario {
+    margin-top: 20px;
+}
+
+#resultados {
+    margin-top: 20px;
+}
+

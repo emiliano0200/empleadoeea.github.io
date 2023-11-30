@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Gestión de Empleados</title>
+</head>
+<body>
+    <header>
+        <h1>Gestión de Empleados</h1>
+    </header>
+
+    <main>
+        <button onclick="mostrarFormulario()">Agregar Empleado</button>
+
+        <div id="formulario" style="display:none;">
+            <!-- Aquí va el formulario para agregar, modificar o eliminar empleados -->
+        </div>
+
+        <div id="resultados">
+            <!-- Aquí se mostrarán los resultados de las consultas -->
+        </div>
+    </main>
+
+    <footer>
+        <button onclick="iniciarSesion()">Iniciar Sesión</button>
+        <button onclick="iniciarSesionFacebook()">Iniciar Sesión con Facebook</button>
+    </footer>
+
+    <script src="empleados.js"></script>
+</body>
+</html>
+
